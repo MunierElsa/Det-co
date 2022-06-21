@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Det\'co</string>
+    <string name="confirm_donnees">Souhaitez-vous que vos données soient enregistrées?</string>
+    <string name="yes">OUI</string>
+    <string name="no">NON</string>
+
+</resources>

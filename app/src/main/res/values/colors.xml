@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="jaune">#fff000</color>
+    <color name="orange">#ff8000</color>
+    <color name="rouge">#ff0000</color>
+    <color name="ivoire">#ffffD4</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

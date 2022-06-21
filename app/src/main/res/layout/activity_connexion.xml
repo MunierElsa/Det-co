@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adresse mail :"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="40dp"/>
+
+
+    <EditText
+        android:id="@+id/EmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/mdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mot de passe :"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/button_connexion"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/orange"
+        android:text="Connexion"
+        android:textColor="@color/white"/>
+</LinearLayout>
